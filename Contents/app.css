@@ -1,0 +1,287 @@
+/*Mudrak Patel;CentennialCollege;300878960;Semester2*/
+/*Custom styles go here*/
+.NavDiv{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        width: 1024px;
+        height: 144px;
+        background-color: #b3b3b3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logoDiv{
+        -webkit-margin-top-collapse: separate;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: auto;
+        margin-right: auto;
+        width: 120px;
+        font-size: 50px;
+        background-color: white;      
+}
+.logoImage{
+        height: 92px;
+        width: 115px;
+}
+.MVISION_text{
+        -webkit-margin-collapse: separate;
+        margin-top: 6px;
+        margin-left: 10px;
+        color:black;
+        background-color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        height: 18px;
+        width: 120px;
+        text-align: center;
+}
+/*Working on links present on all pages*/
+.Link1Div{
+        -webkit-margin-bottom-collapse: separate;
+        -webkit-margin-top-collapse: separate;
+        -webkit-margin-left-collapse: separate;
+        -webkit-margin-right-collapse: separate;
+        width: 120px;
+        margin-left:140px;
+        margin-top:-8.5px;
+        background-color: white;
+        color: black;
+        text-align : center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        height: 18px
+}
+.Link1{
+        -webkit-margin-bottom-collapse: separate;
+        -webkit-margin-top-collapse: separate;
+        -webkit-margin-left-collapse: separate;
+        -webkit-margin-right-collapse: separate;
+        width: 120px;
+        margin-left:auto;
+        margin-top:-8.5px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        text-decoration:none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        height: 18px;
+}
+.Link1Div:hover{
+        background-color: purple;
+        color: white;
+        border-radius: 9px;
+}
+.Link2Div{
+       -webkit-margin-bottom-collapse: separate;
+        -webkit-margin-top-collapse: separate;
+        width: 120px;
+        margin-left:270px;
+        margin-top:-8.5px;
+        background-color: white;
+        color: black;
+        text-align : center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        height: 18px;
+}
+.Link2{
+        -webkit-margin-bottom-collapse: separate;
+        -webkit-margin-top-collapse: separate;
+        width: 120px;
+        margin-left:auto;
+        margin-top:-8.5px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        text-decoration:none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        height: 18px;
+}
+.Link2Div:hover{
+     background-color: purple;
+        color: white;
+        border-radius: 9px;    
+}
+/* Additional styling*/
+.MainDiv{
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color:#00ff00;
+       /*background-image:url('Assets/wallpaper.jpeg');*/
+        margin-left: auto;
+        margin-right: auto;
+        width: 1030px;
+        height: auto;
+        padding-bottom: 10px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px; 
+}
+#AboutMeHeading{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        background-color: white;
+        color: purple;
+        border-radius: 10px;
+        width:250px;
+        text-align: center;
+        height:30px;
+        margin-left: 10px;
+        margin-top:15px;
+}
+#AboutMeParagraph{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+         background-color: white;
+        color: purple;
+         border-radius: 10px;
+         width:760px;
+         text-align: left;
+         margin-left: 10px;    
+         margin-bottom: 10px;
+         padding-bottom: 10px;
+         border-bottom: 10px;
+         padding-left:  6px;
+}
+/*Adding responsive background color behaviour*/
+@media screen and (min-width: 400px) {
+    body {
+        background-color: #cce6ff;
+    }
+}
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: #b3ffcc;
+    }
+}
+/*Styling my own picture div tag*/
+.MyPhotoDiv{
+        height: 350px;
+        width: 300px;
+        background-color:blue;
+        padding: 3px 3px 3px 3px;
+        margin-left:auto;
+        margin-right:auto;
+}
+.MyPhoto{
+        height: 347px;
+        width:297px;
+        margin-left:2px;
+}
+.MyProjectsDiv{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        background-color: white;
+        color: purple;
+        border-radius: 10px;
+        width:400px;
+        text-align: center;
+        height:30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:15px;
+}
+.MyProjectsDivList{
+        width:195px;
+        margin-left: auto;
+        margin-right:auto;
+        background-color:aqua;
+        padding-top:5px;
+        text-align:center;
+}
+/*styling all the links present on the projects page for the list*/
+.ListElement{
+        background-color: white;
+        color: purple;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:16px;
+        margin-left: 10px;
+        padding-top: 3px;
+        font-weight:bold;
+        height:22px;
+        width:175px;
+        align-self: center;
+}
+.ListElement:hover{
+        border-radius: 15px;
+        background-color: black;
+        color: yellow;
+}
+/*Styling for the form on contacts page*/
+.ContactMeTextDiv{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        background-color: white;
+        color: purple;
+        border-radius: 10px;
+        width:400px;
+        text-align: center;
+        height:30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:15px;
+}
+.FormFieldsDiv{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: white;
+        color: purple;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-right: auto;
+        width:175px;
+}
+.Inputs{
+       border-radius: 10px;
+       width:350px; 
+       margin-left:340px;    
+       margin-right:auto;        
+}
+.CenteringDiv{
+        margin-left: auto;
+        margin-right: auto;
+}
+.Buttons{
+        color: purple;
+        background-color: white;
+        padding: 2px 2px 2px 2px;
+        margin-left:440px;
+        margin-right:auto;
+        width: 150px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+}
+.Buttons:hover{
+        background-color: purple;
+        color:white;       
+}
+.ButtonsDiv{
+        color: purple;
+        background-color: white;
+       height:22px;
+        margin-left:440px;
+        margin-right:auto;
+        width: 150px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+}
