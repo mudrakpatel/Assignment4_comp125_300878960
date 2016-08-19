@@ -10,9 +10,10 @@
     var canvas = document.getElementById("canvas");
     //Script for declaring variables of canvas
     var stage = new createjs.Stage("canvas");
-    var AddText = new createjs.Text("Online selfie spot", "bold 86px Arial", "black");
+    var AddText = new createjs.Text("Online selfie spot", "bold 15px Arial", "black");
     var AddText_X = AddText.x;
     var AddText_Y = AddText.y;
+
     /**
      * @ function: 
      * @ purpose:
@@ -23,5 +24,9 @@
             AddText_X = 0;
         }
         stage.update();
+    }
+
+    function checkBound() {
+        if (AddText_X < 200) {}
     }
 }());
