@@ -36,7 +36,11 @@
     //Grabbing the body element and adding an event listener to it
     var body = document.getElementById("body");
     body.addEventListener("load", init());
-
+    /**
+     *@ function: gameLoop
+     @ purpose: To handle Ticker event
+     @ void 
+     */
     function gameLoop() {
         AddText.x += 3;
         if (AddText.x > 385) {
