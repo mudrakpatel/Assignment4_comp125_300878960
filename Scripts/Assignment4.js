@@ -16,10 +16,10 @@
         stage = new createjs.Stage(canvas);
         var AddText = new createjs.Text();
         AddText.text = "Online selfie spot";
-        AddText.font = "bold 35px Arial";
+        AddText.font = "bold 30px Arial";
         AddText.color = "#000000";
-        AddText.x = 100;
-        AddText.y = 100;
+        AddText.x = 10;
+        AddText.y = 165;
         stage.addChild(AddText);
         stage.update();
     }
