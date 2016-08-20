@@ -19,7 +19,7 @@
         AddText.font = "bold 30px Arial";
         AddText.color = "#000000";
         AddText.x = 10;
-        AddText.y = 165;
+        AddText.y = 220;
         stage.addChild(AddText);
         stage.update();
     }
