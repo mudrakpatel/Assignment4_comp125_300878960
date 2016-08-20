@@ -23,5 +23,6 @@
         stage.addChild(AddText);
         stage.update();
     }
+    //Grabbing the body element and adding an event listener to it
 
 }());
