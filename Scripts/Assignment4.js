@@ -7,23 +7,20 @@
 //Creating an IFEE
 (function() {
     //Grabbing the required elements present on index page
-    var canvas = document.getElementById("canvas");
+    var canvas;
     //Script for declaring variables of canvas
-    var stage = new createjs.Stage("canvas");
-    var AddText = new createjs.Text("Online selfie spot", "bold 15px Arial", "#000000");
-    stage.addChild(AddText);
-    var AddText_X = AddText.x;
-    var AddText_Y = AddText.y;
+    var stage;
 
-    /**
-     * @ function: 
-     * @ purpose:
-     */
-    function Refresher() {
-        AddText_X += 3;
-        if (AddText_X > stage.canvas.width) {
-            AddText_X = 0;
-        }
+    function init() {
+        canvas = document.getElementById("canvas");
+        stage = new createjs.Stage(canvas);
+        var AddText = new createjs.Text();
+        AddText.text = "Online selfie spot";
+        AddText.font = "bold 35px Arial";
+        AddText.color = "#000000";
+        AddText.x = 100;
+        AddText.y = 100;
+        stage.addChild(AddText);
         stage.update();
     }
 
