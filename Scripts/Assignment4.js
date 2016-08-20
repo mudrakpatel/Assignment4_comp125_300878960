@@ -11,7 +11,7 @@
     //Script for declaring variables of canvas
     var stage = new createjs.Stage("canvas");
     var AddText = new createjs.Text("Online selfie spot", "bold 15px Arial", "#000000");
-    stage.addchild(AddText);
+    stage.addChild(AddText);
     var AddText_X = AddText.x;
     var AddText_Y = AddText.y;
 
