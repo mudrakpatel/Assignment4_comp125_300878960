@@ -24,5 +24,6 @@
         stage.update();
     }
     //Grabbing the body element and adding an event listener to it
-
+    var body = document.getElementById("body");
+    body.addEventListener("click", init());
 }());
