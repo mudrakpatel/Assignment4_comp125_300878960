@@ -42,8 +42,8 @@
      @ void 
      */
     function gameLoop() {
-        AddText.x += 3;
-        if (AddText.x > 385) {
+        AddText.x -= 3;
+        if (AddText.x > -385) {
             AddText.x = 0;
         }
         stage.update();
