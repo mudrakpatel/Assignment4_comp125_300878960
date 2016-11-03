@@ -16,7 +16,7 @@
     function init() {
         canvas = document.getElementById("canvas");
         stage = new createjs.Stage(canvas);
-        CanvasImage = new createjs.Bitmap("~/Assets/camera.png");
+        CanvasImage = new createjs.Bitmap("Assets/camera.png");
         AddText = new createjs.Text();
         AddText.text = "Online selfie spot";
         AddText.font = "bold 30px Verdana";
